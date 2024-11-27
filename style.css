@@ -45,7 +45,7 @@ header ul li a{
 font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
-header ul li a::after{
+.pseudo:hover::after{
     position: absolute;
     content:"";
     
@@ -58,7 +58,7 @@ header ul li a::after{
    
 }
 
-header ul li a::before{
+.pseudo:hover::before{
     position: absolute;
     content:"";
     
@@ -260,7 +260,7 @@ h5{
    position: absolute;
 }
 .avis{
-    /* text-align: center; */
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,7 +295,7 @@ h5{
 .father-temoignages div i{
     color:var(--color9);
    
-    /* justify-content: center; */
+  
   
    
  
@@ -330,9 +330,7 @@ h5{
 .father-temoignages div img:hover{
     transform: rotateY(180deg);
 }
-#fifth-section{
-    
-}
+
 form{
     display: flex;
     
