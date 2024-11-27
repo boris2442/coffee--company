@@ -1,0 +1,180 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#4E342E;
+    --color2:#6D4C41;
+    --color3:#fff;
+    --color4:black;
+    --color5:#66BB6A;
+    --color6:#F5F5DC;
+    --color7:#FFF8E1;
+    --color8:#D4AF37;
+    --color9:#FFD700;
+}
+header ul{
+    display: flex;
+    height: 15vh;
+    margin: 0 auto;
+    background-color: var(--color1);
+    justify-content: space-around;
+    padding-top: 20px;
+}
+header ul li{
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    position: relative;
+    color:var(--color3);
+    font-weight: bold;
+    font-size: 1.5rem;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+header ul li a::after{
+    position: absolute;
+    content:"";
+    
+    background-color: var(--color4);
+    color:var(--color4);
+    height: 3px;
+    width: 100%;
+    left: 0;
+    top: -4px;
+   
+}
+
+header ul li a::before{
+    position: absolute;
+    content:"";
+    
+    background-color: var(--color4);
+    color:var(--color4);
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -4px;
+    font-weight: bold;
+}
+.coffe{
+  font-family: "Parisienne", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#first-section{
+    margin: 0 auto;
+display: flex;
+flex-direction: column;
+    background: url("./asset/tasse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:var(--color3);
+    
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+}
+h1, h3{
+    padding: 30px 30px 0 30px;
+    margin: 0 auto;
+  /* text-align: center; */
+  display: flex;
+  /* line-height: 40px; */
+margin: 0 auto;
+    font-size: 1.8rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2rem;
+    font-family:"Parisienne", serif ;
+    text-transform: uppercase;
+    
+}
+.first-button{
+   
+    padding: 10px 15px;
+    animation: first-animation 1.5s linear infinite;
+    display: inline-block;
+  
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   margin: 0 auto;
+    color: var(--color3);
+
+    font-size: 1.2rem;
+    width: 200px;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+    background-color: var(--color4);
+    border: none;
+}
+.first-button:hover{
+    color:var(--color4);
+    background: var(--color3);
+    box-shadow: 0px 5px 15px var(--color4);
+}
+#second-section{
+    background-color: var(--color3);
+    padding-top: 20px;
+}
+.father-div{
+    display: flex;
+ 
+    gap: 20px;
+    padding: 30px;
+}
+.father-div div h4{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+.father-div div p{
+     text-align: justify;
+     font-size: 1.2rem;
+     line-height: 30px;
+}
+.father-div div img{
+    border-radius: 10px;
+   margin-top: 55px;
+}
+.second-button{
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+    color:var(--color3);
+    background-color: var(--color4);
+    border: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    animation: first-animation 1.5s linear infinite;
+    border-radius: 7px;
+    transition: 1s ease-in-out;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 10px 30px;
+  
+}
+.second-button:hover{
+    background-color: var(--color3);
+    color:var(--color4);
+    border: 1px solid var(--color4);
+
+}
+@keyframes first-animation{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(40px);
+    }
+}
