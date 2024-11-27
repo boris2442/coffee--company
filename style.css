@@ -480,6 +480,11 @@ footer div:nth-child(4) a{
         display: flex;
         flex-direction: column;
     }
+    .father-temoignages div{
+        width: 90%;
+        margin: 0px auto;
+    }
+    
     .father-produits{
         display: flex;
         flex-direction: column;
@@ -490,4 +495,14 @@ footer div:nth-child(4) a{
     }
 
 }
+@media screen and (max-width:760px) {
+    .none{
+        display: none;
+    }
+    ul{
+        justify-content: space-around;
+    }
+
+}
+
 
