@@ -363,8 +363,15 @@ footer{
    padding: 30px;
     justify-content: space-around;
 }
+footer div{
+
+}
 footer div i{
     font-size: 1.5rem;
+    cursor: pointer;
+}
+footer div i:hover{
+    color:var(--color3)
 }
 footer div p{
     font-size: 1.2rem;
@@ -374,6 +381,25 @@ h6{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 footer div:nth-child(1){
-    display: flex;
+   line-height: 30px;
+   letter-spacing: 20px;
    gap: 15px;
+}
+
+footer div:nth-child(1) h6{
+    margin: 15px;
+    text-align: center;
+    letter-spacing: normal;
+}
+footer div:nth-child(2),footer div:nth-child(3), footer div:nth-child(4) {
+   line-height: 30px;
+  
+}
+footer div:nth-child(4){
+    line-height: 35px;
+    letter-spacing: 03px;
+}
+footer div:nth-child(4) a{
+    text-decoration: none;
+    color:var(--color3);
 }
