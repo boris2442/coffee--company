@@ -13,6 +13,12 @@
     --color7:#FFF8E1;
     --color8:#D4AF37;
     --color9:#FFD700;
+    --color10:red;
+    --color11:blue;
+    --color12:#dd2a7b;
+    --color13:#1DA1F2;
+    --color14:#FF0000;
+    --color15:#EA4335;
 }
 header{
     width: 100%;
@@ -407,20 +413,20 @@ footer div:nth-child(4) a{
  margin-right: 20px;   
 }
 .tube{
-    color:red;
+    color:var(--color10);
 }
 .facebook{
-    color:blue;
+    color:var(--color11);
 }
 .instag{
-  color:#dd2a7b;  
+  color:var( --color12);
 }
 .twitter{
-    color:#1DA1F2;
+    color:var(--color13);
 }
 .localisation{
-    color:#FF0000;
+    color:var(--color14);
 }
 .mail{
-    color:#EA4335;
+    color:var(--color15);
 }
