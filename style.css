@@ -14,7 +14,11 @@
     --color8:#D4AF37;
     --color9:#FFD700;
 }
-
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
 header ul{
     display: flex;
     height: 15vh;
@@ -68,6 +72,7 @@ header ul li a::before{
 }
 #first-section{
     margin: 0 auto;
+    padding-top: 150px;
 display: flex;
 flex-direction: column;
     background: url("./asset/tasse.jpg");
@@ -341,7 +346,34 @@ input, textarea, #btn{
     font-size: 1.5rem;
     cursor: pointer;
 }
+textarea{
+    resize: none;
+    height: 130px;
+}
 #btn:hover{
 background-color: var(--color3);
 color:var(--color4);
+}
+
+footer{
+    display: flex;
+    color:var(--color3);
+    background-color: var(--color4);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   padding: 30px;
+    justify-content: space-around;
+}
+footer div i{
+    font-size: 1.5rem;
+}
+footer div p{
+    font-size: 1.2rem;
+}
+h6{
+    font-size: 1.3rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+footer div:nth-child(1){
+    display: flex;
+   gap: 15px;
 }
