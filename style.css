@@ -261,6 +261,12 @@ h5{
 .father-temoignages div i{
     color:var(--color9);
    
+    /* justify-content: center; */
+  
+   
+ 
+    margin: 0 auto;
+   
     
 }
 .text{
@@ -280,6 +286,9 @@ h5{
     border-radius: 50%;
     transition: 1s ease-in-out;
     text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
     height: 200px;
     width: 200px;
     margin-top: 20px;
