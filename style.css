@@ -441,3 +441,18 @@ footer div:nth-child(4) a{
 .mail{
     color:var(--color15);
 }
+/* partie responsive */
+@media screen and (max-width:1345px) {
+    .history{
+        height: 400px;
+        overflow: auto;
+    }
+    
+}
+@media screen and (max-width:975px){
+    footer{
+        display: grid;
+        gap:30px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
