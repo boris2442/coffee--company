@@ -367,7 +367,7 @@ footer div{
 
 }
 footer div i{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     cursor: pointer;
 }
 footer div i:hover{
@@ -396,10 +396,31 @@ footer div:nth-child(2),footer div:nth-child(3), footer div:nth-child(4) {
   
 }
 footer div:nth-child(4){
-    line-height: 35px;
-    letter-spacing: 03px;
+    line-height: 45px;
+    letter-spacing: 0épx;
 }
 footer div:nth-child(4) a{
     text-decoration: none;
     color:var(--color3);
+}
+.deplacement{
+ margin-right: 20px;   
+}
+.tube{
+    color:red;
+}
+.facebook{
+    color:blue;
+}
+.instag{
+  color:#dd2a7b;  
+}
+.twitter{
+    color:#1DA1F2;
+}
+.localisation{
+    color:#FF0000;
+}
+.mail{
+    color:#EA4335;
 }
