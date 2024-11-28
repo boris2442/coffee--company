@@ -378,11 +378,10 @@ footer{
    padding: 30px;
     justify-content: space-around;
 }
-footer div{
 
-}
 footer div i{
     font-size: 1.9rem;
+    transition: 1s ease-in-out;
     cursor: pointer;
 }
 footer div i:hover{
