@@ -284,10 +284,7 @@ h5{
     font-size: 1.9rem;
     /* margin: 0 auto; */
 }
-.star{
-    display: flex;
-    
-}
+
 .father-temoignages{
     padding: 20px;
     display: flex;
@@ -295,7 +292,7 @@ h5{
     
     justify-content: space-around;
 }
-.father-temoignages div{
+.father-temoignages> div{
     padding: 5px;
     border-radius: 7px;
     transition: 0.5s ease-in-out;
@@ -309,6 +306,25 @@ h5{
     color:var(--color9);
     margin: 0 auto;
    
+}
+.star{
+    /* margin-left: 40%; */
+    border: none;
+    text-align: center;
+    padding: 8px;
+    /* margin-left: 0%; */
+    /* display: flex; */
+    /* background-color:green; */
+ /* gap:none; */
+  /* justify-content: space-around; */
+  /* margin: 0 auto; */
+  /* align-items: center; */
+    /* gap:10px; */
+    
+}
+.star i{
+text-align: center;
+
 }
 .text{
     text-align: justify;
