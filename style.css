@@ -248,10 +248,10 @@ h1{
  margin-right: 0;
  position: absolute;
  float: right;
- bottom: 2px;
+ bottom: 15px;
  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
- right: 5px;
- padding: 10px 9px;
+ right: 15px;
+ padding: 10px 15px;
  border-radius: 5px;
  font-size: 1.2rem;
  border: none;
@@ -260,9 +260,9 @@ h1{
     display: flex;
 }
 h5{
-   padding-top: 0px; 
-   bottom: 2px;
-   left: 5px;
+   /* padding-top: 15px;  */
+   bottom: 15px;
+   left: 15px;
    font-size: 1.2rem;
    padding: 10px 9px;
    border-radius:5px ;
