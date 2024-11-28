@@ -308,18 +308,11 @@ h5{
    
 }
 .star{
-    /* margin-left: 40%; */
-    border: none;
+   
+   
     text-align: center;
     padding: 8px;
-    /* margin-left: 0%; */
-    /* display: flex; */
-    /* background-color:green; */
- /* gap:none; */
-  /* justify-content: space-around; */
-  /* margin: 0 auto; */
-  /* align-items: center; */
-    /* gap:10px; */
+    
     
 }
 .star i{
