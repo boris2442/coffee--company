@@ -234,7 +234,14 @@ h1{
 
  
 }
-
+.father-produits div h4{
+    left: 15px; 
+ padding-top: 0;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-size: 1.4rem;
+   
+}
 .father-produits div h5, #third-button{
     transition: 1s ease-in-out;
     cursor: pointer;
@@ -260,7 +267,7 @@ h1{
     display: flex;
 }
 h5{
-   /* padding-top: 15px;  */
+ 
    bottom: 15px;
    left: 15px;
    font-size: 1.2rem;
