@@ -483,14 +483,22 @@ footer div:nth-child(4) a{
 @media screen and (max-width:1345px) {
     .history{
         height: 400px;
+        transition: 1s ease-in-out;
         overflow: auto;
     }
     .history::-webkit-scrollbar{
         width: 6px;
-        height: 5px;
+        height: 10px;
     }
     .history::-webkit-scrollbar-track{
         background-color: var(--color2);
+    }
+    .history::-webkit-scrollbar-thumb:hover{
+        background-color: var(--color1);
+    }
+    .history::-webkit-scrollbar-thumb{
+        background-color: #6D4C41;
+        border-radius: 10px;
     }
     
 }
