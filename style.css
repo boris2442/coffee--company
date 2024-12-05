@@ -157,6 +157,7 @@ h1{
      font-size: 1.2rem;
      line-height: 30px;
 }
+
 .father-div div img{
     border-radius: 10px;
    margin-top: 55px;
@@ -483,6 +484,13 @@ footer div:nth-child(4) a{
     .history{
         height: 400px;
         overflow: auto;
+    }
+    .history::-webkit-scrollbar{
+        width: 6px;
+        height: 5px;
+    }
+    .history::-webkit-scrollbar-track{
+        background-color: var(--color2);
     }
     
 }
