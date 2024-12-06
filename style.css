@@ -249,10 +249,10 @@ h1{
    
 }
 .father-produits div h5, #third-button{
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
     cursor: pointer;
 }
-.father-produits div h5, #third-button:hover{
+.father-produits div h5:hover, #third-button:hover{
     background-color: var(--color1);
 }
 
