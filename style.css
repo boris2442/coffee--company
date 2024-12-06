@@ -104,7 +104,7 @@ margin: 0 auto;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: clamp(1.7rem, 10vw, 2.7rem);
     font-family:"Parisienne", serif ;
     text-transform: uppercase;
     
@@ -387,6 +387,9 @@ input, textarea, #btn{
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+    
+
 input:focus, textarea:focus{
     background-color: var(--color1);
     color:var(--color3);
