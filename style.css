@@ -375,6 +375,7 @@ form{
 input, textarea, #btn{
     width: 400px;
     margin: 10px 0;
+    transition:0.5s ease-in-out;
     font-size: 0.9rem;
     border-radius: 4px;
     padding: 20px;
@@ -385,6 +386,11 @@ input, textarea, #btn{
     color:var(--color3);
     font-size: 1.5rem;
     cursor: pointer;
+}
+input:focus, textarea:focus{
+    background-color: var(--color1);
+    color:var(--color3);
+    font-size: 1.5rem;
 }
 textarea{
     resize: none;
@@ -496,6 +502,7 @@ footer div:nth-child(4) a{
     .history::-webkit-scrollbar-thumb:hover{
         background-color: var(--color1);
     }
+
     .history::-webkit-scrollbar-thumb{
         background-color: #6D4C41;
         border-radius: 10px;
