@@ -6,10 +6,12 @@
     }
    
 }
-.navigation{
+/* .title{
    display: flex;
+   right: 80px;
    width: 10vh;
-   padding-top: 40px;
+   position: absolute;
+   padding-top: 200px;
    flex-direction: column; 
-   row-gap: 30px;
-}
+   row-gap: 10px;
+} */
