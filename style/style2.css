@@ -1,0 +1,10 @@
+/* partie destinee au style qui sera attribuer a javascript */
+
+@media screen and (max-width:760px) {
+    .burger{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
