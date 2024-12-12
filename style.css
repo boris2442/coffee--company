@@ -6,6 +6,9 @@ list-style: none;
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* initialisation des couleurs */
 :root{
     --color1:#4E342E;
     --color2:#6D4C41;
@@ -26,6 +29,7 @@ list-style: none;
 header{
     width: 100%;
     position: fixed;
+    
     z-index: 2;
 }
 header ul{
@@ -80,6 +84,15 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.burger{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 1.5rem;
+}
+
+/* partie destinee a la premiere section */
 #first-section{
     margin: 0 auto;
     padding-top: 150px;
