@@ -1,0 +1,1 @@
+const navig=document.querySelector("header ul ")

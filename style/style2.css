@@ -4,7 +4,12 @@
     .burger{
         display: block;
     }
-    ul{
-        display: none;
-    }
+   
+}
+.navigation{
+   display: flex;
+   width: 10vh;
+   padding-top: 40px;
+   flex-direction: column; 
+   row-gap: 30px;
 }
