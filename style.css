@@ -446,7 +446,9 @@ footer div p{
 }
 h6{
     font-size: 1.3rem;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color:var(--color1);
+    font-family: "Parkinsans";
+    
 }
 footer div:nth-child(1){
    line-height: 30px;
