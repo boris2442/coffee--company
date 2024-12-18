@@ -500,12 +500,18 @@ footer div:nth-child(4) a{
     color:var(--color15);
 }
 .text-end{
-    background-color: var(--color4);
-    color:var(--color3);
+    background-color: var(--color3);
+    color:var(--color4);
     text-align: center;
     padding-bottom: 20px;
+    font-weight: 500;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     font-family: 'Parkinsans',  Arial,  Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+  
 }
 .reserv{
     text-align: center;
@@ -520,7 +526,7 @@ footer div:nth-child(4) a{
 
 
 
-/* partie responsive */
+/*################## partie responsive #########################33*/
 
 
 
