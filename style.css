@@ -718,9 +718,7 @@ footer div:nth-child(4) a{
   }
   .swiper-wrapper{
     width: 100%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+ 
 
   }
   .swiper .swiper-slide{
