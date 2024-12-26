@@ -12,9 +12,14 @@ menu.addEventListener("click", ()=>{
     menu.style.display='none'
     rem.style.display='block'
 
-})
+});
 rem.addEventListener("click", ()=>{
     menu.style.display='block'
     rem.style.display='none'
     navigation.classList.remove("active")
-})
+});
+window.addEventListener("scroll", ()=>{
+    navigation.classList.remove("active")
+     menu.style.display='block'
+    rem.style.display='none'
+});
