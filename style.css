@@ -709,9 +709,19 @@ footer div:nth-child(4) a{
 .swiper{
     max-width: 600px;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     border-bottom-right-radius: 99px;
     box-shadow: 2px 3px 6px var(--color4);
     height: 600px;
+  }
+  .swiper-wrapper{
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
   }
   .swiper .swiper-slide{
     margin: 0 auto;
@@ -764,6 +774,10 @@ footer div:nth-child(4) a{
     .swiper-slide img{
         width:250px;
         height: 250px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         object-position: center;
         object-fit: cover;
     }
