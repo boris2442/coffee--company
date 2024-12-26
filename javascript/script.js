@@ -73,8 +73,8 @@ const swiper = new Swiper('.swiper', {
 
 const sr= ScrollReveal({
     origin:"top",
-    duration:1500,
+    duration:1000,
     reset:true,
     distance:"30px"
 })
-sr.reveal("")
+sr.reveal(".class-footer, .first-section, .second-section, .third-section, .et-a-decouvrir, .fourth-section", {interval:200})
