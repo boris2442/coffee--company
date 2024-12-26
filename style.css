@@ -714,7 +714,7 @@ footer div:nth-child(4) a{
     display: flex;
     border-bottom-right-radius: 99px;
     box-shadow: 2px 3px 6px var(--color4);
-    height: 600px;
+    height: 500px;
   }
   .swiper-wrapper{
     width: 100%;
