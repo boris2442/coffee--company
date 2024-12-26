@@ -3,3 +3,9 @@
 // menu.addEventListener("click", ()=>{
 //     navig.classList.toggle("navigation")
 // })
+
+const menu=document.querySelector(".burger");
+const navigation=document.querySelector("header ul");
+menu.addEventListener("click", ()=>{
+    navigation.classList.toggle("active")
+})
