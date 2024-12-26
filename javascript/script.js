@@ -23,3 +23,17 @@ window.addEventListener("scroll", ()=>{
      menu.style.display='block'
     rem.style.display='none'
 });
+
+
+// partie du code reservée  typewriter
+
+const app=document.querySelector("h1");
+const typewriter=new Typewriter(app, {
+    loop:true,
+    delay:100
+})
+typewriter
+.typeString("l'art du caffé : <br />au coeur de l'excellence")
+.pauseFor(2000)
+.deleteAll("")
+.start();
