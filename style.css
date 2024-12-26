@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     margin: 0;
+    
     box-sizing: border-box;
 }
 
@@ -131,7 +132,7 @@ flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     color:var(--color3);
-    
+    background-attachment: fixed;
     background-position: center;
     height: 85vh;
     width: 100%;
