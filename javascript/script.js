@@ -83,25 +83,40 @@ sr.reveal(".class-footer, .first-section, .second-section, .third-section, .et-a
 
 // partie destinee a ofsettop et ofsetheight
 
+const scrollActive=()=>{
+  sections.forEach(section=>{
 
-// const scrollActive=()=>{
-//   sections.forEach(section=>{
+let scroll=window.scrollY;
+ let top=section.offsetTop;
+ let height=section.offsetHeight;
+ let id=section.getAttribute("id")
+//  console.log(
+//   id
+//  );
+ 
+ if(scroll>=top - 400 && scroll<top + height){
 
-// let scroll=window.scrollY;
-//  let top=section.offsetTop;
-//  let height=section.offsetHeight;
-//  let id=section.getAttribute("id")
-//  if(scroll>=top - 200 && scroll<top + height){
-//   links.forEach(link=>{
 
-//     link.classList.add("active-link")
-//     document.querySelector(`ul li a[href*=${id}]`).classList.add("active-link")
-//   })
-//  }
+  links.forEach(link => {
+    link.classList.remove('active-link')
+    
+  });
+// console.log('jkjkk');
 
-//   })
+  let recuperation_id = document.querySelector(`ul li a[href*=${id}]`);
+  console.log(recuperation_id);
+  recuperation_id.classList.add('active-link')
+  
+  // links.forEach(link=>{
+
+  //   link.classList.add("active-link")
+  //   document.querySelector(`ul li a[href*=${id}]`).classList.add("active-link")
+  // })
+ }
+
+  })
 
 
   
-// }
-// window.addEventListener("scroll", scrollActive)
+}
+window.addEventListener("scroll", scrollActive)
