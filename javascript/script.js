@@ -34,7 +34,7 @@ const typewriter=new Typewriter(app, {
     delay:100
 })
 typewriter
-.typeString("l'art du caffé : <br />au coeur de l'excellence")
+.typeString("l'art du caffé : au coeur de l'excellence")
 .pauseFor(2000)
 .deleteAll("")
 .start();
