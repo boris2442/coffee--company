@@ -65,7 +65,7 @@ header ul li a{
     color:var(--color3);
     font-weight: bold;
     font-size: 1.3rem;
-font-family: 'Parkinsans', Arial,  Helvetica, sans-serif;
+text-transform: lowercase;
     font-family: "Parkinsans",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header ul li a::after{
