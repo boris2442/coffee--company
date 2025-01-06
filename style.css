@@ -651,7 +651,7 @@ footer div:nth-child(4) a{
 .remov{
     display: none;
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:1220px) {
     header ul{
         position: absolute;
         left: -100%;
