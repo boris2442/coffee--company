@@ -78,3 +78,6 @@ const sr= ScrollReveal({
     distance:"30px"
 })
 sr.reveal(".class-footer, .first-section, .second-section, .third-section, .et-a-decouvrir, .fourth-section", {interval:200})
+
+
+// partie destinee a ofsettop et ofsetheight
