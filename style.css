@@ -785,7 +785,9 @@ footer div:nth-child(4) a{
 @media screen and (max-width:650px) {
     .swiper{
         width: 80%;
+
     }
+    
 }
 
 

@@ -1,8 +1,4 @@
-// const navig=document.querySelector("header  ul ");
-// const menu=document.querySelector(".burger");
-// menu.addEventListener("click", ()=>{
-//     navig.classList.toggle("navigation")
-// })
+
 const links=document.querySelectorAll("a");
 const menu=document.querySelector(".burger");
 const rem=document.querySelector(".remov")
@@ -107,11 +103,7 @@ let scroll=window.scrollY;
   console.log(recuperation_id);
   recuperation_id.classList.add('active-link')
   
-  // links.forEach(link=>{
-
-  //   link.classList.add("active-link")
-  //   document.querySelector(`ul li a[href*=${id}]`).classList.add("active-link")
-  // })
+  
  }
 
   })
