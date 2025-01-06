@@ -3,9 +3,10 @@
 // menu.addEventListener("click", ()=>{
 //     navig.classList.toggle("navigation")
 // })
-
+const links=document.querySelectorAll("a");
 const menu=document.querySelector(".burger");
 const rem=document.querySelector(".remov")
+const sections=document.querySelectorAll("section")
 const navigation=document.querySelector("header ul");
 menu.addEventListener("click", ()=>{
     navigation.classList.add("active")
@@ -81,3 +82,26 @@ sr.reveal(".class-footer, .first-section, .second-section, .third-section, .et-a
 
 
 // partie destinee a ofsettop et ofsetheight
+
+
+// const scrollActive=()=>{
+//   sections.forEach(section=>{
+
+// let scroll=window.scrollY;
+//  let top=section.offsetTop;
+//  let height=section.offsetHeight;
+//  let id=section.getAttribute("id")
+//  if(scroll>=top - 200 && scroll<top + height){
+//   links.forEach(link=>{
+
+//     link.classList.add("active-link")
+//     document.querySelector(`ul li a[href*=${id}]`).classList.add("active-link")
+//   })
+//  }
+
+//   })
+
+
+  
+// }
+// window.addEventListener("scroll", scrollActive)

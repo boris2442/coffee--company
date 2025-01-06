@@ -785,3 +785,11 @@ footer div:nth-child(4) a{
         width: 80%;
     }
 }
+
+
+.active-link{
+    border-bottom: 1px solid var(--color3);
+    background-color: var(--color12);
+    padding: 10px;
+    border-radius: 7px;
+}
