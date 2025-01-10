@@ -101,14 +101,9 @@ let scroll=window.scrollY;
 
   let recuperation_id = document.querySelector(`ul li a[href*=${id}]`);
   console.log(recuperation_id);
-  recuperation_id.classList.add('active-link')
-  
-  
+  recuperation_id.classList.add('active-link') 
  }
 
-  })
-
-
-  
+  })  
 }
 window.addEventListener("scroll", scrollActive)
