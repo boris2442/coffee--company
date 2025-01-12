@@ -186,6 +186,7 @@ header div{
  header i{
 font-size: 2.3rem;
 cursor: pointer;
+
 color:var(--color3);
  }
 .coffe{
@@ -206,7 +207,9 @@ display: flex;
 flex-direction: column;
     background: url("./asset/tasse.jpg");
     background-repeat: no-repeat;
+    background-color: rgb(62, 67, 60);
     background-size: cover;
+    background-image: url(/asset/tasse.jpg);
     color:var(--color3);
     background-attachment: fixed;
     background-position: center;
