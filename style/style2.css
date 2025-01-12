@@ -1,16 +1,15 @@
-/* partie destinee au style qui sera attribuer a javascript */
+/* partie dark */
 
-@media screen and (max-width:760px) {
-    
-   
+.dark-body{
+
 }
-/* .title{
-   display: flex;
-   right: 80px;
-   width: 10vh;
-   position: absolute;
-   padding-top: 200px;
-   flex-direction: column; 
-   row-gap: 10px;
-} */
-
+.dark-body header{
+   background-color:#2C2C2C;
+}
+.dark-mode header a {
+   color: white; /* Liens blancs */
+ }
+ 
+ .dark-mode header a:hover {
+   color: #DDDDDD; /* Liens en gris clair au survol */
+ }
