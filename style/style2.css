@@ -6,10 +6,35 @@
 .dark-body header{
    background-color:#2C2C2C;
 }
-.dark-mode header a {
+.dark-body header a {
    color: white; /* Liens blancs */
  }
  
- .dark-mode header a:hover {
+ .dark-body header a:hover {
    color: #DDDDDD; /* Liens en gris clair au survol */
+ }
+
+
+ /* partie hiero section */
+
+ .dark-body .first-section{
+   background-color: rgba(0, 0, 0, 0.7); /* Fond sombre avec un peu de transparence */
+   color: white;
+ }
+ .dark-body .first-button{
+   background-color: #333;
+ }
+ .dark-body .first-button:hover{
+   background-color: #444;
+ }
+
+
+ /* second section */
+
+ .dark-body .second-section, .dark-body .fourth-section{
+   background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+   color: rgb(255, 255, 255); /* Texte en noir pour le dark mode */
+ }
+ .dark-body .fourth-section:hover{
+   color:#444;
  }
