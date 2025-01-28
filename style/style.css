@@ -758,9 +758,7 @@ footer div:nth-child(4) a{
         color:var(--color1);
 
     }
-    .burger{
-        display: block;
-    }
+    
     .burger:hover{
         background-color: var(--color1);
         color:var(--color4);

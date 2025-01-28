@@ -66,9 +66,34 @@
     position: relative;
     transition:transform 0.4s ease;
   }
-  .circle-btn:hover{
+  .burger{
+    position: absolute;
+    display: block;
+    right: 0;
+}
+  #circle-btn:hover{
     transform: scale(1.2);
 }
-.circle-btn:active{
+#circle-btn:active{
     transform: scale(1.5);
 }
+
+svg{
+  transform: rotate(-90deg);
+  }
+  .bg-svg{
+      stroke:#b8b8b834;
+      stroke-width:4;
+  }
+  .filled{
+    stroke:#fff;
+    stroke-width: 4;  
+    stroke-dasharray:1;
+    stroke-dashoffset:1 ;
+    transition: .2s ease-in-out;
+  }
+  #circle-btn:hover .filled{
+      stroke-dashoffset:0 ;
+  
+  }
+  
