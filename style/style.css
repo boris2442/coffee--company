@@ -751,16 +751,14 @@ footer div:nth-child(4) a{
         transition: 0.7s ease-in-out;
         left: 0;
     }
-    /* .burger{
-        display: block;
-    } */
+    
     header ul li a{
         color:var(--color1);
 
     }
     
     .burger:hover{
-        background-color: var(--color1);
+       
         color:var(--color4);
         
     }

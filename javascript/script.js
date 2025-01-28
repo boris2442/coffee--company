@@ -27,7 +27,7 @@ window.addEventListener("scroll", ()=>{
 const app=document.querySelector("h1");
 const typewriter=new Typewriter(app, {
     loop:true,
-    delay:100
+    delay:50
 })
 typewriter
 .typeString("l'art du caffé : au coeur de l'excellence")
